@@ -1,1 +1,1 @@
-export default 'hello --- haha'
+export default 'lazyload --- haha'

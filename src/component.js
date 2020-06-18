@@ -1,9 +1,9 @@
-export default (text = 'Hello world') => {
+export default (text = 'Hello webpack') => {
   fetch('/api/test')
-    .then(res => {
+    .then((res) => {
       console.log(res)
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err)
     })
   const element = document.createElement('div')
@@ -12,10 +12,10 @@ export default (text = 'Hello world') => {
 
   element.onclick = () =>
     import('./lazy')
-      .then(lazy => {
+      .then((lazy) => {
         element.textContent = lazy.default
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err)
       })
   return element

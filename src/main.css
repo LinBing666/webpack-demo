@@ -1,5 +1,6 @@
 body {
   /* background: url('./img/kic.jpg') no-repeat; */
+  background: #2b3a42;
 }
 
 .pure-button {
@@ -12,6 +13,14 @@ body {
   font-size: 100px;
   text-align: center;
   margin-top: 100px;
+  color: #fff;
+}
+.webpack-img {
+  display: block;
+  width: 244px;
+  height: 70px;
+  margin-left: 30px;
+  margin-top: 50px;
 }
 @font-face {
   font-family: 'dbmanx';
